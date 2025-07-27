@@ -1,10 +1,7 @@
 ﻿#include<iostream>
 #include "listD.h"
-#include <array>
 
 int main(int argc, char* argv) {
-	std::array<int, 3> bbb;
-	auto iter = bbb.begin();
 
 	DoublLinkedList<int> arr;
 
@@ -22,7 +19,6 @@ int main(int argc, char* argv) {
 	
 	arr.fill(5, 3);
 	arr.Print();
-	
 	
 	return 0;
 }
